@@ -1,0 +1,67 @@
+.register-wrapper{
+    width: 400px;
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.from-wrapper{
+    background-color: #161D2F;
+    border-radius: 20px;
+    padding: 32px;
+}
+.register-title{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: white;
+    margin-bottom: 40px;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.register-form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #5A698F;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 5px 0;
+}
+.register-form input:focus{
+    outline: none;
+}
+.register-form input::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.register-form button{
+    background-color: #FC4747;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    margin-bottom: 10px ;
+}
+.rederect-login{
+    margin-left: 50px;
+    color: red;
+}
