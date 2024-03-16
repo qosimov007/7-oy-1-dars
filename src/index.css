@@ -1,8 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    background-color: black;
-    color: white;
-}
+.button-space{
+    padding-right: 2%;
+  }
+  .custom{
+    width: 35% !important;
+  }
+
+  .form-component{
+    border-bottom: 3px solid blue;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+  
+  .view-content{
+    padding-top: 2%;
+    border-bottom: 3px dotted black;
+  }
+  .search-bar{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-bottom: 3px dotted black;
+  }
+  .search-bar-button{
+    padding-right: 2%;;
+  }
+  .sort{
+    padding-right: 1%;;
+  }
+
+  .custom-sort-name{
+    width: 120px !important;
+    
+  }
+  .custom-sort-id{
+    width: 80px !important;
+  }
+  .odd{
+    background-color: floralwhite;
+  }
+
+  .project-box{
+background-color: gray
+  }
+
+  .priority-box{
+    background-color: lavenderblush;
+    margin-left: 10px;
+      }
+      .custom-checkbox{
+margin-left: 20px;
+      }
